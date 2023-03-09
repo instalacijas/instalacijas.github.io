@@ -10,7 +10,7 @@ img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
 /* ====== PADDING AROUND CONTENT ======  */
-body { background-color: antiquewhite; }
+body { background-color:#C8B6A6}
 body { padding: 4% 20% }
 /* Desktops */
 @media (min-width: 768px) {
@@ -28,7 +28,7 @@ body { padding: 4% 20% }
      }
  }
 h1 {
-    color: brown;
+    color: white;
     font-size: 84px;
     text-align: center;
 font-weight: normal;
@@ -37,13 +37,13 @@ margin-bottom: 32px;
 }
 
 h2 {
-    color: brown;
+    color: white;
     font-size: 36px;
     margin-bottom: 4px;
 }
 
 h3 {
-    color: brown;
+    color: white;
     font-size: 24px;
     margin-bottom: 4px;
 }
