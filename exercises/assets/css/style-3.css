@@ -10,7 +10,7 @@ img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
 /* ====== PADDING AROUND CONTENT ======  */
-body { padding: 4% 20% }
+
 /* Desktops */
 @media (min-width: 768px) {
     section { padding: 4% 20% }
@@ -21,7 +21,7 @@ body { padding: 4% 20% }
     section { padding: 5% 5% }
  }
  @media (max-width: 767px) {
-     body {
+     section {
          padding-left: 5%;
          padding-right: 5%;
      }
