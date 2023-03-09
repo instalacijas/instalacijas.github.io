@@ -11,6 +11,7 @@ input, button, textarea, select { font: inherit }
 
 /* ====== PADDING AROUND CONTENT ======  */
 
+body { background-color: lightblue; }
 /* Desktops */
 @media (min-width: 768px) {
     section { padding: 4% 20% }
@@ -35,6 +36,7 @@ margin-bottom: 32px;
 }
 
 h2 {
+    color: blue;
     font-size: 36px;
     margin-bottom: 4px;
 }
@@ -50,3 +52,4 @@ p {
 line-height: 1.6;
 margin-bottom: 20px;
 }
+a { color: blue; }
