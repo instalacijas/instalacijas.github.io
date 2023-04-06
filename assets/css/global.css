@@ -10,7 +10,7 @@ img { width: 100%; height: auto; display: block }
 input, button, textarea, select { font: inherit }
 
 /* ================= ENDS ================ */
-body { background-color: lightgreen; }
+body { background-color: rgb(196, 198, 226); }
 /* Desktops */
 @media (min-width: 768px) {
     body { padding: 4% 20% }

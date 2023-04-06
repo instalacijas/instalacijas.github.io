@@ -1,0 +1,25 @@
+/* Add your custom CSS here */
+body { font-family: 'Outfit', sans-serif }
+
+.section-selector-1 { background-color: var(--trend-700) }
+.section-selector-1 > .badge span { color: var(--white-000) }
+.section-selector-1 > .badge span { background-color: var(--trend-700) }
+
+.section-selector-2 { background-color: var(--trend-800) }
+
+.section-selector-3 { background-color: var(--trend-700) }
+
+.section-selector-3 { background-color: var(--trend-700) }
+.section-selector-2 { background-color: var(--trend-800) }
+@media (min-width: 768px) { .section-selector-2 .col-2 figure.fig-shadows-box { filter: drop-shadow(8px 8px 8px rgba(160, 174, 192, 0.9)); } }
+@media (max-width: 767px) { .section-selector-2 .col-2 figure.fig-shadows-box { filter: drop-shadow(6px 6px 6px rgba(160, 174, 192, 0.9)); } }
+
+.section-selector-4.theme-dark { background-color: var(--trend-700) }
+.section-selector-4 .col-3 h3 { color: var(--white-000) }
+.section-selector-4 div[class^='flex-cols-'] div[class^='col-'] figure.icon { color: var(--blue-300) }
+
+
+.section-selector-1 h2,
+.section-selector-2 h2,
+.section-selector-3 h2,
+.section-selector-4 h2 { font-weight: 400;}
