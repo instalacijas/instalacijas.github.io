@@ -1,0 +1,14 @@
+body
+header.theme-dark { background-color: var(--trend-900) }
+header.theme-dark .badge { background-color: var(--slate-050) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--trend-800) }
+background-colour { background-color: var(--trend-800) }
+
+
+.section-selector-1.theme-dark { background-color: var(--trend-900) }
+
+ body {font-family: 'Source Serif Pro', serif;
+  font-size: small 25px;
+  margin-left: middle;
+ }

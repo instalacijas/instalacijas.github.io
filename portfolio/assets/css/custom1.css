@@ -1,0 +1,10 @@
+
+header.theme-dark { background-color: var(--trend-900) }
+header.theme-dark .badge { background-color: var(--slate-050) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--trend-800) }
+
+header.theme-dark .badge { background-color: var(--slate-050) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--trend-800) }
+header.theme-dark { background-color: var(--trend-900) }
