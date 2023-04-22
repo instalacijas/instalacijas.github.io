@@ -1,14 +1,14 @@
-
-nav.theme-dark, nav.theme-dark ul.links-wrapper.active { background-color: #0f172a }
-
-header.theme-dark   { background-color: #0f172a }
-
-header.theme-dark  h1 { color: var(--sky-400); }
-
-section.theme-dark   { background-color: #0f172a }
-
-footer.theme-dark   { background-color: #0f172a }
+body
+header.theme-dark { background-color: var(--trend-900) }
+header.theme-dark .badge { background-color: var(--slate-050) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--trend-800) }
+background-colour { background-color: var(--trend-800) }
 
 
+.section-selector-1.theme-dark { background-color: var(--trend-900) }
 
-header .col-text h2, .col-1 > h3 { line-height: 1.8 }
+ body {font-family: 'Source Serif Pro', serif;
+  font-size: small 25px;
+  margin-left: middle;
+ }
