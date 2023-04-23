@@ -9,17 +9,30 @@ background-colour { background-color: var(--trend-800) }
 .section-selector-1.theme-dark { background-color: var(--trend-900) }
 
  body {font-family: 'Source Serif Pro', serif;
-  font-size: small 25px;
-  margin-left: middle;
+  font-size: small 24px;
+  
  }
 
 
  /* Desktops */
-@media (min-width: 768px) {
-    body { padding: 4% 20% }
+@media (min-width: 767px) {
+    body { padding: 0% 0% }
  }
  
  /* Mobiles */
- @media (max-width: 767px) {
-    body { padding: 8% 5% }
+ @media (max-width: 150px) {
+    body { padding: 0% 0% }
  }
+
+
+ #heading {
+   text-align: center;
+   
+   
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size:cover; 
+   margin-bottom: 0 !important;
+ }
+
