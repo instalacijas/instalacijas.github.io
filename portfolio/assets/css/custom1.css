@@ -8,3 +8,14 @@ header.theme-dark .badge { background-color: var(--slate-050) }
 nav.theme-dark,
 nav.theme-dark ul.links-wrapper.active { background-color: var(--trend-800) }
 header.theme-dark { background-color: var(--trend-900) }
+
+
+/* Desktops */
+@media (min-width: 768px) {
+    body { padding: 0% 0% }
+ }
+ 
+ /* Mobiles */
+ @media (max-width: 767px) {
+    body { padding: 0% 0% }
+ }
