@@ -70,10 +70,10 @@ section > p.deckhead { font-size: calc(24px + (42 - 24) * ((100vw - 320px) / (11
 
   /* Desktops */
 @media (min-width: 768px) {
-  body { padding: 4% 20% }
+  body { padding: 0% 0% }
 }
 
 /* Mobiles */
 @media (max-width: 767px) {
-  body { padding: 5% 5% }
+  body { padding: 0% 0% }
 }
