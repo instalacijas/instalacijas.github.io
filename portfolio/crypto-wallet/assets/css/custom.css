@@ -23,3 +23,13 @@ body { font-family: 'Outfit', sans-serif }
 .section-selector-2 h2,
 .section-selector-3 h2,
 .section-selector-4 h2 { font-weight: 400;}
+
+/* Desktops */
+@media (min-width: 768px) {
+    body { padding: 0% 0% }
+ }
+ 
+ /* Mobiles */
+ @media (max-width: 767px) {
+    body { padding: 0% 0% }
+ }
