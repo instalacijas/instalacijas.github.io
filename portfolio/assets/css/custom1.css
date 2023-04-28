@@ -19,3 +19,7 @@ header.theme-dark { background-color: var(--trend-900) }
  @media (max-width: 767px) {
     body { padding: 0% 0% }
  }
+
+ body {font-family: 'Source Serif Pro', serif;
+   font-size: small 24px;
+ }
