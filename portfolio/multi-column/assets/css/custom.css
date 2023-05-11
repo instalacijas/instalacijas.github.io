@@ -2,7 +2,7 @@
 
 
 
-#hero-1 header.theme-dark { background-color: var(--lime-400) }
+.section-selector-1 { background-color: var(--lime-400) }
 
 .cols-2-half .col-2 h2 {
     font-size: calc(24px + (36 - 24) * ((100vw - 320px) / (1140 - 320)));
@@ -21,74 +21,11 @@
 
 .section-selector-2 { font-family: 'Playfair Display', serif }
 
-header.theme-dark { background-color: var(--blue-700) }
+
 
 #hero-3, #hero-4, #hero-5, #hero-6, #hero-7, #hero-8 { margin-top: 80px }
 
-header.hero-bg > .container-overlay { background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)); } 
-header.theme-dark .container-btn a.btn:nth-child(1):link,
-header.theme-dark .container-btn a.btn:nth-child(1):visited { color: var(--white-000) }
 
-header.theme-dark .container-btn a.btn:nth-child(1):focus,
-header.theme-dark .container-btn a.btn:nth-child(1):hover,
-header.theme-dark .container-btn a.btn:nth-child(1):active { color: var(--black-000) }
-
-header.theme-dark .container-btn a.btn:nth-child(1):link,
-header.theme-dark .container-btn a.btn:nth-child(1):visited { background-color: var(--green-500) }
-
-header.theme-dark .container-btn a.btn:nth-child(1):focus,
-header.theme-dark .container-btn a.btn:nth-child(1):hover,
-header.theme-dark .container-btn a.btn:nth-child(1):active { background-color: var(--green-400) }
-
-header.theme-dark .container-btn a.btn:nth-child(1):focus,
-header.theme-dark .container-btn a.btn:nth-child(1):hover,
-header.theme-dark .container-btn a.btn:nth-child(1):active { border-color: var(--green-400) }
-
-header.theme-dark .container-btn a.btn:nth-child(1):link,
-header.theme-dark .container-btn a.btn:nth-child(1):visited { border-color: var(--green-500) }
-
-header.theme-dark .container-btn a.btn:nth-child(2):link,
-header.theme-dark .container-btn a.btn:nth-child(2):visited { color: var(--white-000) }
-
-header.theme-dark .container-btn a.btn:nth-child(2):focus,
-header.theme-dark .container-btn a.btn:nth-child(2):hover,
-header.theme-dark .container-btn a.btn:nth-child(2):active { color: var(--white-000) }
-
-header.theme-dark .container-btn a.btn:nth-child(2):link,
-header.theme-dark .container-btn a.btn:nth-child(2):visited { background-color: var(--green-500) }
-
-header.theme-dark .container-btn a.btn:nth-child(2):focus,
-header.theme-dark .container-btn a.btn:nth-child(2):hover,
-header.theme-dark .container-btn a.btn:nth-child(2):active { background-color: var(--green-400) }
-
-header.theme-dark .container-btn a.btn:nth-child(2):link,
-header.theme-dark .container-btn a.btn:nth-child(2):visited { border-color: var(--green-500) }
-
-header.theme-dark .container-btn a.btn:nth-child(2):focus,
-header.theme-dark .container-btn a.btn:nth-child(2):hover,
-header.theme-dark .container-btn a.btn:nth-child(2):active { border-color: var(--green-400) }
-
-#hero-2 header.theme-dark h1 {
-    font-family: 'Bebas Neue', sans-serif;
-    font-weight: 400;
-    letter-spacing: 4px;
-    font-size: calc(72px + (132 - 72) * ((100vw - 320px)/ (1600 - 320)));
- }
-
- #hero-3 header.theme-dark h1 {
-    font-family: 'Abril Fatface', serif;
-    font-size: calc(48px + (100 - 48) * ((100vw - 320px)/ (1600 - 320)));
-}
-
-/* Desktops */
-@media (min-width: 768px) {
-    body { padding: 0% 0% }
- }
- 
- /* Mobiles */
- @media (max-width: 767px) {
-    body { padding: 0% 0% }
- }
 
  .section-selector-3.theme-dark { background-color: var(--trend-800) }
 .section-selector-3 .col-1 h2 { color: var(--sky-300) }

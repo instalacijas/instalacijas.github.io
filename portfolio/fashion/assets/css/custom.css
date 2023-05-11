@@ -9,12 +9,3 @@ body {font-family: 'Playfair Display', serif;
 
 }
 
-/* Desktops */
-@media (min-width: 768px) {
-    body { padding: 0% 0% }
- }
- 
- /* Mobiles */
- @media (max-width: 767px) {
-    body { padding: 0% 0% }
- }
